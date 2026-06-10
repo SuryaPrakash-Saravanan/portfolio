@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Surya Prakash S, a Computer Science and Engineering student, aspiring software developer, and web development enthusiast.">
+  <meta name="author" content="Surya Prakash S">
+  <meta name="theme-color" content="#000000">
+  <title>Surya Prakash S | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas class="particle-canvas" id="particleCanvas" aria-hidden="true"></canvas>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a href="#home" class="brand" aria-label="Surya Prakash S home">
+        <span class="brand-mark">SP</span>
+        <span class="brand-text">Surya Prakash S</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#learning" class="nav-link">Academic Learning</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home" aria-labelledby="heroTitle">
+      <div class="hero-grid" data-parallax="0.12"></div>
+      <div class="hero-content reveal in-view">
+        <div class="profile-stage" id="profileStage" aria-label="Profile image with animated glowing rings">
+          <span class="orbit-ring orbit-ring-one"></span>
+          <span class="orbit-ring orbit-ring-two"></span>
+          <span class="orbit-ring orbit-ring-three"></span>
+          <img class="profile-image" src="assets/profile.png" alt="Photo of Surya Prakash S">        </div>
+        <p class="eyebrow">First-Year Computer Science and Engineering Student</p>
+        <h1 id="heroTitle"><span class="name-part">SURYA</span> <span class="name-part">PRAKASH S</span></h1>
+        <div class="hero-roles" aria-label="Professional roles">
+          <span>Computer Science and Engineering Student</span>
+          <span>Aspiring Software Developer</span>
+          <span>Web Development Enthusiast</span>
+        </div>
+        <p class="typing-line">I am a <span id="typedText"></span><span class="typing-cursor" aria-hidden="true"></span></p>
+        <div class="hero-actions">
+          <a class="button primary magnetic" href="#projects">View Projects</a>
+          <a class="button secondary magnetic" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="aboutTitle">
+      <div class="section-inner narrow">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Career Objective</p>
+          <h2 id="aboutTitle">About Me</h2>
+        </div>
+        <article class="glass-panel about-card reveal">
+          <p>
+            Motivated first-year Computer Science and Engineering student at Saveetha Engineering College with a strong interest in programming and web development. Eager to apply academic knowledge, develop practical skills, and gain industry experience through internship opportunities. Quick learner with strong communication skills and a passion for solving real-world problems through technology.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education" aria-labelledby="educationTitle">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Academic Path</p>
+          <h2 id="educationTitle">Education</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content glass-panel">
+              <p class="timeline-label">Bachelor of Engineering</p>
+              <h3>B.E. Computer Science and Engineering</h3>
+              <p>Saveetha Engineering College</p>
+              <address>Thandalam, Kanchipuram, Chennai - 602105</address>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skillsTitle">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Developer Dashboard</p>
+          <h2 id="skillsTitle">Skills</h2>
+        </div>
+        <div class="skills-dashboard reveal" data-skill-dashboard>
+          <div class="dashboard-core">
+            <span>Core Stack</span>
+            <strong>Learning in Motion</strong>
+          </div>
+          <div class="skill-radial" data-value="85">
+            <div class="skill-ring"><span class="skill-percent">0%</span></div>
+            <strong>Python</strong>
+          </div>
+          <div class="skill-radial" data-value="90">
+            <div class="skill-ring"><span class="skill-percent">0%</span></div>
+            <strong>HTML</strong>
+          </div>
+          <div class="skill-radial" data-value="88">
+            <div class="skill-ring"><span class="skill-percent">0%</span></div>
+            <strong>CSS</strong>
+          </div>
+          <div class="skill-radial" data-value="70">
+            <div class="skill-ring"><span class="skill-percent">0%</span></div>
+            <strong>JavaScript</strong>
+          </div>
+          <div class="skill-radial" data-value="75">
+            <div class="skill-ring"><span class="skill-percent">0%</span></div>
+            <strong>C Programming</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section learning-section" id="learning" aria-labelledby="learningTitle">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Academic Learning</p>
+          <h2 id="learningTitle">Current Foundations</h2>
+        </div>
+        <div class="card-grid learning-grid">
+          <article class="glass-card tilt-card reveal stagger">
+            <span class="card-number">01</span>
+            <h3>Python Programming</h3>
+            <p>Completed Python coursework and learned:</p>
+            <ul>
+              <li>Data Types</li>
+              <li>Arrays</li>
+              <li>Basic Programming Concepts</li>
+            </ul>
+          </article>
+          <article class="glass-card tilt-card reveal stagger">
+            <span class="card-number">02</span>
+            <h3>Web Development Basics</h3>
+            <p>Learned HTML, CSS, JavaScript fundamentals, and responsive design.</p>
+            <p>Strong understanding of HTML and CSS for building responsive websites.</p>
+          </article>
+          <article class="glass-card tilt-card reveal stagger">
+            <span class="card-number">03</span>
+            <h3>C Programming</h3>
+            <p>Completed fundamental concepts including:</p>
+            <ul>
+              <li>Arrays</li>
+              <li>Looping Statements</li>
+              <li>Strings</li>
+              <li>Basic Problem Solving</li>
+            </ul>
+            <p>Particularly comfortable working with arrays and string manipulation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projectsTitle">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Featured Work</p>
+          <h2 id="projectsTitle">Projects</h2>
+        </div>
+        <article class="project-card tilt-card reveal">
+          <div class="project-shine" aria-hidden="true"></div>
+          <div class="project-meta">
+            <span>Featured Project</span>
+            <span>Web Platform Concept</span>
+          </div>
+          <h3>ZippGo - Smart Return Management Platform</h3>
+          <p>
+            A web-based solution designed to address misuse of product return policies in e-commerce platforms such as Amazon and Flipkart.
+          </p>
+          <p>
+            The idea focuses on creating a dynamic return policy system that helps reduce fraudulent return activities while improving trust between customers and sellers.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section achievements-section" id="achievements" aria-labelledby="achievementsTitle">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Milestones</p>
+          <h2 id="achievementsTitle">Achievements</h2>
+        </div>
+        <div class="achievement-list">
+          <article class="achievement-card glass-card tilt-card reveal stagger">
+            <span>01</span>
+            <h3>Participated in a Hackathon</h3>
+          </article>
+          <article class="achievement-card glass-card tilt-card reveal stagger">
+            <span>02</span>
+            <h3>Contributed to the ZippGo Project</h3>
+          </article>
+          <article class="achievement-card glass-card tilt-card reveal stagger">
+            <span>03</span>
+            <h3>Actively Learning Programming Technologies</h3>
+          </article>
+          <article class="achievement-card glass-card tilt-card reveal stagger">
+            <span>04</span>
+            <h3>Interested in Software Development</h3>
+          </article>
+          <article class="achievement-card glass-card tilt-card reveal stagger">
+            <span>05</span>
+            <h3>Passionate About Problem Solving</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contactTitle">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Contact</p>
+          <h2 id="contactTitle">Let's Connect</h2>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card glass-card reveal stagger" href="mailto:your.email@example.com">
+            <span>Email</span>
+            <strong>suryaryt005@gmail.com</strong>
+          </a>
+          <a class="contact-card glass-card reveal stagger" href="https://github.com/SuryaPrakash-Saravanan" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>Tap Here To Visit</strong>
+          </a>
+          <a class="contact-card glass-card reveal stagger" href="https://www.linkedin.com/in/surya-prakash-s-3828733a0?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            <strong>Tap Here To Visit</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed and built for internship opportunities by Surya Prakash S.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
